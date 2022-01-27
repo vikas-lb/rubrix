@@ -56,9 +56,9 @@ export default {
 .record {
   padding: 44px 20px 20px 20px;
   display: block;
-  margin-bottom: 0;
-  @include font-size(18px);
-  line-height: 34px;
+  margin-bottom: 0; // white-space: pre-line;
+  @include font-size(16px);
+  line-height: 1.6em;
   .list__item--annotation-mode & {
     padding-left: 65px;
   }
